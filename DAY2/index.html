@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <title>Praneeth Kumar Pola - Online Resume</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="resume-container">
+    <!-- Header Section -->
+    <div class="header">
+      <div class="profile">
+        <img src="your-headshot.jpg" alt="Praneeth Kumar's Headshot">
+        <h1>Praneeth Kumar Pola</h1>
+        <p>Long Beach, CA</p>
+        <div class="contact-info">
+          <a href="mailto:polapraneethkumar@gmail.com">Email</a> |
+          <a href="tel:+15628376966">Phone</a> |
+          <a href="https://www.linkedin.com/in/praneeth-kumar-pola-256826310" target="_blank">LinkedIn</a> |
+          <a href="https://github.com/PolaPraneeth" target="_blank">GitHub</a> |
+          <a href="https://medium.com/@ppran234" target="_blank">Medium</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Professional Summary Section with Dropdown -->
+    <div class="section">
+      <h2 class="section-title dropdown-toggle" onclick="toggleSection('summary-section')">Professional Summary</h2>
+      <div id="summary-section" class="dropdown-content">
+        <p>Software Engineer with experience in developing Java-based backend systems, RESTful APIs, and optimizing CI/CD pipelines using Jenkins. Proven expertise in full-stack development with hands-on skills in Spring Boot, React, and cloud deployment. Passionate about scalable systems and real-time application integration.</p>
+      </div>
+    </div>
+
+    <!-- Professional Experience Section with Dropdown -->
+    <div class="section">
+      <h2 class="section-title dropdown-toggle" onclick="toggleSection('employment-section')">Professional Experience</h2>
+      <div id="employment-section" class="dropdown-content">
+        <div class="job">
+          <p><strong>Aug 2021 - Aug 2022</strong><br>Programmer Analyst Trainee - Cognizant Technology Solutions</p>
+          <ul>
+            <li>Enhanced ING Bank’s user data management portal, improving data handling capabilities through advanced Java-based solutions.</li>
+            <li>Designed and implemented RESTful APIs to streamline communication between front-end and back-end systems.</li>
+            <li>Collaborated with scientists to refine internal tools, ensuring high-quality software outputs and user experience optimization.</li>
+            <li>Managed cloud deployments, enhancing scalability and performance optimization for critical systems.</li>
+          </ul>
+
+          <p><strong>May 2020 - Apr 2021</strong><br>Jr Java Developer Intern - Tricullin Tech Pvt Ltd</p>
+          <ul>
+            <li>Developed and optimized REST API endpoints using Spring Boot, improving system response time by 35%.</li>
+            <li>Automated CI/CD pipelines using Jenkins, reducing deployment time by 50% and ensuring seamless updates.</li>
+            <li>Orchestrated microservices communication, enhancing system scalability and improving data integration by 40%.</li>
+            <li>Contributed to Agile sprints, conducted usability testing, and performed code reviews to ensure robust user experience improvements.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Education Section with Dropdown -->
+    <div class="section">
+      <h2 class="section-title dropdown-toggle" onclick="toggleSection('education-section')">Education</h2>
+      <div id="education-section" class="dropdown-content">
+        <p><strong>Master of Science in Computer Science</strong><br>California State University, Long Beach | Expected May 2024</p>
+        <p><strong>Bachelor of Science in Computer Science</strong><br>Sreenidhi Institute of Science and Technology, Hyderabad | May 2021</p>
+      </div>
+    </div>
+
+    <!-- Skills Section with Dropdown -->
+    <div class="section">
+      <h2 class="section-title dropdown-toggle" onclick="toggleSection('skills-section')">Technical Skills</h2>
+      <div id="skills-section" class="dropdown-content">
+        <ul>
+          <li><strong>Languages:</strong> Java, JavaScript, Python, C, C++</li>
+          <li><strong>Front-End:</strong> React, HTML/CSS, Tailwind CSS</li>
+          <li><strong>Back-End:</strong> Spring Boot, RESTful APIs</li>
+          <li><strong>Databases:</strong> MySQL, MongoDB, Oracle</li>
+          <li><strong>DevOps:</strong> Docker, Jenkins, Kubernetes, CI/CD pipelines, Cloud Deployment (AWS, GCP)</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Projects Section with Dropdown -->
+    <div class="section">
+      <h2 class="section-title dropdown-toggle" onclick="toggleSection('projects-section')">Projects</h2>
+      <div id="projects-section" class="dropdown-content">
+        <h3>Microservices Health Tracking System</h3>
+        <ul>
+          <li>Developed a comprehensive Health Tracking System using Java and Spring Boot for robust backend operations, integrated with React for dynamic front-end interactions.</li>
+          <li>Incorporated PostgreSQL for database management and Twilio for automated SMS notifications.</li>
+        </ul>
+
+        <h3>Paint Store Management System</h3>
+        <ul>
+          <li>Designed and developed a full-stack management system using React and Spring Boot with MySQL for backend data management.</li>
+          <li>Implemented CI/CD pipelines using Jenkins for streamlined deployment and cloud resource management.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- JavaScript for Dropdown Functionality -->
+  <script>
+    function toggleSection(sectionId) {
+      const section = document.getElementById(sectionId);
+      section.style.display = section.style.display === 'none' ? 'block' : 'none';
+    }
+
+    // Initialize sections to be hidden
+    document.getElementById('summary-section').style.display = 'none';
+    document.getElementById('employment-section').style.display = 'none';
+    document.getElementById('education-section').style.display = 'none';
+    document.getElementById('skills-section').style.display = 'none';
+    document.getElementById('projects-section').style.display = 'none';
+  </script>
+</body>
+</html>
