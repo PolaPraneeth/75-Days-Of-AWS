@@ -1,5 +1,8 @@
 # Praneeth Kumar's Resume Website
 
+
+# Hosted at `praneethkumar-resume.com`
+
 This repository contains the code for my personal resume website hosted on AWS. The site is built using static HTML, CSS, and JavaScript files and is served using Amazon S3 with CloudFront as the CDN for fast global delivery. The website is secured using SSL/TLS certificates provided by AWS Certificate Manager (ACM), and Route 53 is used for DNS management with a custom domain.
 
 ## Architecture Overview
