@@ -10,6 +10,7 @@ This project demonstrates an automated ETL (Extract, Transform, Load) pipeline u
 - **Transform**: AWS Glue Crawler processes and catalogs the data.
 - **Load**: Data is converted to Avro format and saved in `outputbucket`.
 
+
 ---
 
 ## 📋 Architecture
