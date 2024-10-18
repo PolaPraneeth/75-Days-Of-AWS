@@ -13,6 +13,7 @@ This project demonstrates an automated ETL (Extract, Transform, Load) pipeline u
 
 ---
 
+
 ## 📋 Architecture
 
 - **🗂️ S3 Buckets**:
