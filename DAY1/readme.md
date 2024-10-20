@@ -3,7 +3,7 @@
 
 # 💡 How I Made Math More Powerful: Deploying a Serverless Power Calculator with AWS
 
-## 📚 Overview
+## 📚 Overview 
 This project focuses on building a **serverless power calculator** using AWS services such as **Lam bda**, **API Gateway**, and **DynamoDB**. The goal is to efficiently compute powers of numbers (base^exponent) using the power of cloud technology, ensuring scalability and minimal infrastructure overhead.
 
 ---
