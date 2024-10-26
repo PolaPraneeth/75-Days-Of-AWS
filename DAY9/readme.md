@@ -4,6 +4,7 @@ Amazon EventBridge is a fully managed event bus service that makes it easy to co
 
 ---
 
+
 ## 📋 Overview
 
 Amazon EventBridge helps you build event-driven architectures by providing a simple, scalable, and reliable event bus. It can connect AWS services, third-party SaaS platforms, and your custom applications, allowing you to route events to different destinations.
